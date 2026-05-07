@@ -1,5 +1,6 @@
-def main():
-    print("Hello from dsc190-assignment5!")
+def main() -> None:
+    y = 20
+    print(y)
 
 
 if __name__ == "__main__":
