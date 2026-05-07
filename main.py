@@ -1,9 +1,8 @@
-import os, sys, json   # F401 + import sorting issues
+import os, sys, json
 
 def main():
-    x = 10      # F841: unused variable
-    print("This line is intentionally made very long to trigger the line-too-long rule. It goes on and on and on and on and on and on and on and on and on." * 2)
-    
+    x = 10
+    print("This line is intentionally made very long to trigger the line-too-long rule. " * 5)
     y = 20
     print(y)
 
